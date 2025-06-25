@@ -14,7 +14,7 @@ Stock index data (CSI 500, CSI 300, SSE 50, CSI 1000, Wind All-A)
 Fund NAVs (index-enhanced, neutral strategy funds)
 Broker position data (top 5, 10, 20 brokers)
 
-# 3.Tools & Technologies
+# 3.Technologies
 Python (pandas, NumPy, matplotlib, seaborn)
 scikit-learn, statsmodels (for feature engineering, model training)
 Wind API + Excel (data acquisition and integration)
@@ -26,11 +26,11 @@ Modeling: Random Forest, Neural Network models for return prediction
 Evaluation: Compare MSE, success rate (whether predicted combination outperforms median of all combinations)
 Backtesting: Apply model-selected strategies on out-of-sample data, assess Sharpe ratio, drawdown
 
-# 4.Key Findings
+# 5.Key Findings
 The model predicts calendar-spread returns with a success rate exceeding 55%.
 Random Forest showed stronger stability and interpretability compared to Neural Networks in backtesting.
 The strategy achieved annualized returns exceeding median market performance, with Sharpe ratios above 1 in stable periods.
 
-# 6. Business Impact
+# 6.Business Impact
 Helps institutional investors manage risk and improve capital efficiency in volatile markets.
 Provides a framework for systematic weekly arbitrage decisions in China’s stock index futures market.
